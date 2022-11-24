@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+.card.shadow-2-strong.card-registration {
+    margin: 0px 0px !important;
+}
+
+.py-5 {
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
+}
+.alert {
+    padding: 5px;
+    color: red;
+    font-weight: 700;
+    margin: 0px;
+}
+.p-md-5 {
+    padding: 1rem!important;
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 100vh !important;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+.container {
+    margin-top: 0px !important;
+}
+.mb-4 {
+    margin-bottom: 0.5rem!important;
+}
+.mt-4 {
+    margin-top: 0.5rem!important;
+}
+
+.menu-head {
+    background: black;
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: white;
+    padding: 5px;
+}
+.logo-menu {
+    color: white;
+}
