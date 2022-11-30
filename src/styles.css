@@ -22,9 +22,12 @@
     width: 100%;
     max-width: 100%;
     overflow: hidden;
-    height: 100vh !important;
+    /* height: 100vh !important; */
     overflow-y: hidden;
     overflow-x: hidden;
+    
+    margin-bottom: 18px !important;
+
 
 }
 .container {
@@ -49,4 +52,19 @@ a {
 }
 .logo-menu {
     color: white;
+}
+
+footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+  }
+
+  form.ng-untouched.ng-pristine.ng-invalid {
+    margin: 40px 0;
 }

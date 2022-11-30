@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:3000/";
+const baseUrl = "https://jsonplaceholder.typicode.com/";
 
 export const environment = {
   production: false,

@@ -10,6 +10,9 @@ import { PipesModule } from 'w-ng5';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { environment } from './home/environments/environment';
+import {NgxCaptchaModule} from  '@binssoft/ngx-captcha';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -25,10 +28,13 @@ import { AboutComponent } from './about/about.component';
     HttpClientModule,
     FormsModule,
     PipesModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxCaptchaModule,
+    ToastrModule.forRoot()
     
   ],
   providers: [],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
